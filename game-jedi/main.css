@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url("assets/fundo.jpg") no-repeat;
+    background-size: auto auto;
+    background-position: center top;
+}
+@font-face {
+    font-family: starwars;
+    src: url(STJEDISE.TTF);
+}
+h1 {
+    font-family: starwars;
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-size: 7em;
+    text-align: center;
+}
+#startGame {
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.187);
+    width: 30%;
+    padding-top: 100px;
+    height: 200px;
+} 
+#subtitulo {
+    font-family: starwars;
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-size: 3em;
+    text-align: center;
+}
+#startGame {
+    position: relative;
+    margin-top: 15%;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: starwars;
+    color: white;
+    transition-duration: .5s;
+    opacity: 1;
+}
+#startGame:hover {
+    font-size: 3em;
+}
+#menu-principal {
+    display: none;
+}
+.selectChar {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    transition-duration: 0.5s;
+}
+#obiwan {
+    position: relative;
+    background: url("assets/obiwan.jpg");
+    background-position: center top;
+    background-size: 200%;
+    margin-left: 9%;
+}
+#dart {
+    position: relative;
+    background: url("assets/darvader.jpg");
+    background-position: center top;
+    background-size: 220%;
+    margin-right: 9%;
+}
+#areaSelecao {
+    margin: 0 auto;
+    margin-top: 25%;
+    max-width: 505px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 270px;
+    background: rgba(0, 0, 0, 0.227);
+    opacity: 0;
+    display: none;
+}
+#titulo {
+    font-family: starwars;
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-size: 2em;
+    text-align: center;
+}
+.player {
+    position: relative;
+    margin-left: 1%;
+    display: inline-block;
+    width: 48%;
+    overflow: hidden;
+}
+#powerBar1 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    float: right;
+    width: 100%;
+    height: 20px;
+    border: 1px solid black;
+    background-color: green;
+}
+#powerBar2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    float: left;
+    width: 100%;
+    height: 20px;
+    border: 1px solid black;
+    background-color: green;
+}
+#nameChar1 {
+    font-family: starwars;
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    text-align: left;
+    padding-left: 10px;
+}
+#nameChar2 {
+    font-family: starwars;
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    text-align: right;
+    padding-right: 10px;
+}
+.image {
+    width: 100%;
+    height: 400px;
+    margin-top: 60%;
+    
+}
+.image img{
+    margin-left: 20%;
+    min-height: 300px;
+}

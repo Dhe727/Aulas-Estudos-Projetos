@@ -1,0 +1,2 @@
+*criar uma arquivo js para armazernar o resultado do jogo e até onde o jogador chegou.
+*criar novas fases após derrotar o inimigo.

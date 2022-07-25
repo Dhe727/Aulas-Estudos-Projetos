@@ -1,0 +1,226 @@
+@font-face {
+	font-family: 'robos';
+	src: url('font/ROBO.ttf');
+}
+#p1, #p2, #p3, #p4 {
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	border: 1px solid rgb(95, 136, 100);
+	border-radius: 10px 0 10px 0;
+	background-color: rgba(95, 136, 100, 0.63) !important;
+	margin: 5px;
+	transition-duration: 0.2s;
+}
+.sobreImagem {
+	border: 1px solid silver;
+}
+.sobreImagem:hover {
+	box-shadow: -5px -5px rgba(95, 136, 100, 0.63);
+}
+#p1 {
+	background: url(p1.png) no-repeat;
+	background-size: cover;
+	background-size: 232%;
+	background-position: -59px 19px;
+
+}
+#p2 {
+	background: url(p2.png) no-repeat;
+	background-size: 232%;
+	background-position: -59px 3px;
+	
+}
+#p3 {
+	background: url(p3.png) no-repeat;
+	background-size: 232%;
+	background-position: -69px -5px;
+	
+}
+#p4 {
+	background: url(p4.png) no-repeat;
+	background-size: 219%;
+	background-position: -69px 2px;
+	
+}
+#p1:hover {
+	background-size: 240%;
+}
+#p2:hover {
+	background-size: 240%;
+}
+#p3:hover {
+	background-size: 240%;
+}#p4:hover {
+	background-size: 240%;
+}
+#desafio {
+	width: 700px;
+	border: 1px solid silver;
+	margin: 0 auto;
+	font-family: aria;
+	font-size: 12px; 
+}
+.titulo {
+	font-weight: bold;
+	font-size: 22px;
+	text-align: center;
+}
+#menu-game {
+	margin: 0 auto;
+	margin-top: 150px;
+	border: 2px solid blue;
+	width: 200px;
+	height: 300px;
+	background-color: rgba(29, 188, 196, 0.36);
+	border-radius: 10px 10px 2px 2px;
+}
+#menu-game p {
+	margin-top: 5px;
+	text-align: center;
+	font-family: robos;
+	color: white;
+	font-size: 20px;
+	text-shadow: 1px 2px 3px blue;
+	text-decoration: underline;
+}
+#start-game {
+	margin-top: -261px;
+	font-family: robos;
+	font-size: 16px;
+	color: white;
+	text-shadow: 1px 2px 5px blue;
+	transition-duration: 1s;
+	
+}
+#start-game:hover {
+	color: white;
+	text-shadow: 2px 2px 5px black;
+}
+#game {
+	width: 700px;
+	height: 600px;
+	margin: 0 auto;
+	border: 1px solid black;
+	background: url(cenario.jpg) no-repeat;
+	background-position: -455px -229px;
+}
+#ativa {
+	
+	overflow: hidden;
+}
+#start-game {
+	text-align: center;
+}
+#select-jogador {
+	margin: 0 auto;
+	margin-top: 20px;
+	height: 100px;
+	width: 432px;
+	overflow: hidden;
+}
+.barraEnergia {
+	width: 300px;
+	height: 16px;
+	border: 1px solid silver;
+	border-radius: 0 0 10px 0;
+	background: green;
+}
+.barraEnergia2 {
+	width: 300px;
+	height: 16px;
+	border: 1px solid silver;
+	border-radius:0px 0px 0px 10px  ;
+	background: green;
+}
+
+#life1 {
+	float: right;
+	font-family: robos;
+}
+#life2 {
+	float: left;
+	font-family: robos;
+}
+#jogadorUm {
+	float: left;
+	margin-top: 39px;
+	width: 320px;
+	height: 350px;
+	border: 0px solid red;
+	margin-left: 5px;
+}
+#jogadorDois {
+	float: left;
+	margin-top: 39px;
+	width: 320px;
+	height: 350px;
+	border: 0px solid red;
+	margin-left: 47px;
+}
+#fotoJogadorUm {
+	height: 300px;
+	width: 300px;
+	margin: 5px;
+
+}
+#fotoJogadorUm img {
+	width: 300px;
+	overflow: hidden;
+}
+#fotoJogadorDois {
+	float: right;
+	height: 300px;
+	width: 300px;
+	margin: 5px;
+}
+#ativa {
+	 display: none;
+
+}
+.bt {
+	width: 102px;
+	height: 24px;
+	font-family: robos;
+	color: white;
+	padding: 3px;
+	background: blue;
+	border-radius: 5px 0 5px 0;
+}
+.bt2 {
+	width: 102px;
+	height: 24px;
+	font-family: robos;
+	color: white;
+	padding: 3px;
+	background: blue;
+	border-radius: 0 5px 0 5px;
+}
+#btP2 {
+	float: right;
+}
+#life2, #life1 {
+	border: 0px;
+	background-color: rgba(192, 192, 192, 0);
+	font-size: 20px;
+	color: white;
+	text-shadow: 1px 1px 3px black;
+}
+#golpeP1 {
+	position: relative;
+	margin-top: -28px;
+	font-family: robos;
+	color: white;
+  	font-size: 20px;
+  	text-shadow: 1px 1px 3px black;
+}
+#golpeP2 {
+  position: relative;
+  float: right;
+  margin-top: -28px;
+  font-family: robos;
+  color: white;
+  font-size: 20px;
+  text-shadow: 1px 1px 3px black;
+  z-index: 99;
+}

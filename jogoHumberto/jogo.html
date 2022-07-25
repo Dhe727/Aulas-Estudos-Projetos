@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf8'>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src='games.js'></script>
+	<title>Silvio Fighter</title>
+</head>
+<body>
+
+<section id="game">
+<section id='menu-game'><p>Star Warriors</p>
+</section>
+	<h1 id="start-game" >Clique Aqui</h1>
+	
+	<div id="ativa">
+		
+	<section id='select-jogador'>
+		<div id='p1' class='sobreImagem'></div>
+		<div id='p2'class='sobreImagem'></div>
+		<div id='p3'class='sobreImagem'></div>
+		<div id='p4'class='sobreImagem'></div>
+	</section>
+	<Section id="areaJogo">
+
+	<section id="jogadorUm">
+	<button id="btP1" class="bt">Atack P1</button><input type='text' id='life1' value='100' size="2" disabled>
+		<div class="barraEnergia"><div id="energiaP1"></div></div>
+		<div id="fotoJogadorUm"><img src="shadow.png"></div>
+		<div id="golpeP1"></div>
+
+	</section>
+
+	<section id="jogadorDois">
+	<button id="btP2" class="bt2">Atack P2</button><input type='text' id='life2' value='100' size="2" disabled>
+		<div class="barraEnergia2" style="float: right;"><div id="energiaP2"></div></div>
+		<div id="fotoJogadorDois"><img src="shadow.png">
+		</div>
+		<div id="golpeP2">teste</div>
+
+	</section>
+	<div id="sound"></div>
+	<div id="sound2"></div>
+	</Section>
+
+	</div>
+</section>
+<section id='desafio'>
+<header class="titulo">Desafio do Silvio</header>
+Desenvolva um sistema de luta com dois campos de texto indicando a vida dos personagens (100 de vida inicial para cada) e botões "Atacar" para cada um dos 2 jogadores.
+O botão atacar deverá anunciar um valor de dano aleatório de 1 a 9 onde cada pessoa terá um turno (qualquer um dos dois pode começar).
+O jogador cuja vida chegar a 0 primeiro perderá o jogo. Deverá ser exibida uma mensagem anunciando o jogador vencedor.
+Dica: Deverá bloquear o botão quando não for a vez do jogador.</section>
+</body>
+</html>

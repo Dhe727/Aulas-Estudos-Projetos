@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1657655650 source:c:\users\andre\onedrive\documentos\aulas'c'\jogo de pergunta e reposta\main.c
+	<stdio.h>
+	<string.h>
+	<locale.h>
+
