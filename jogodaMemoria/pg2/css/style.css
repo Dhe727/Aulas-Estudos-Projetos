@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&family=Spline+Sans+Mono:wght@300&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    font-family: 'Righteous', cursive;
+}
+.grid{
+    display: grid;
+    width: 100%;
+    max-width: 800px;
+    grid-template-columns: repeat(10, 150px);
+    gap: 15px;
+    
+
+
+
+}
+
+.card{
+    aspect-ratio: 2/3;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #333;
+    position: relative;
+    transition: all 400ms ease;
+    transform-style:preserve-3d;
+    border: solid 2px black ;
+}
+.face{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+}
+.front{
+    background-image: url(/W3/jogodaMemoria/imagem/img01.jpg);
+}
+
+.back{
+    background-image: url('/jogodaMemoria/imagem/img01.jpg');
+    backface-visibility: hidden;
+}
+.card:hover{
+    transform: rotateY(180deg);
+}

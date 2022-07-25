@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1657555254 source:c:\users\andre\onedrive\documentos\aulas'c'\jogo de adivinhar2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+
