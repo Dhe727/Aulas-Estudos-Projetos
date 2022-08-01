@@ -16,13 +16,14 @@
 }   
 
 .receita__imagem{
-    height: 200px;
+    height: 30%;
+    width: 100%;
 }
 .receita__titulo{
-    font-size: 1.44rem;
+    font-size: 2.0%;
 }
 .receita__descricao{
-    font-size: 1.1875rem;
+    font-size: 2%;
     line-height: 1.5;
     text-align:justify ; 
 }
