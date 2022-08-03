@@ -1,0 +1,38 @@
+
+#corpo{
+    background-color: rgb(236, 239, 241);
+}
+.titulo-banner{
+    text-align: center;
+    color: aliceblue;
+    font-family: pacifico, cursive;
+}
+.h3-banner{
+    text-align: center;
+    font-family: pacifico, cursive;
+    color: #fcfcfc;
+}
+.paragrafo-banner{
+    text-align: center;   
+    color: #fcfcfc;
+}
+
+h4,h3{
+    text-align: center;
+    font-family: pacifico, cursive;
+    color: rgb(37, 39, 41);
+
+}
+.paragrafo{
+    text-align: center;
+    font-family: 'Justo', cursiva;
+    color: rgb(37, 39, 41);
+    font-weight: 600;
+
+}
+.rodape{
+    text-align: center;
+    font-family: pacifico, cursive;
+    color: #000000;
+
+}
