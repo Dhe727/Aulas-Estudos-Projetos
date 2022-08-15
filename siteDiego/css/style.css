@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+
+}
+
+h1 {
+    color: #f7e797ee;
+    font-family: 'Raleway', sem serifa;
+    
+
+}
+
+h4 {
+    color: #f7e797ee;
+    font-family: 'Raleway', sem serifa;
+}
+
+.nav-link {
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    margin-right: 15px;
+    border: solid black  3px ;
+}
+
+.imgLogo {
+    width: 100px;
+    height: auto;
+    display: flex;
+    
+}
+
+ pxpx
