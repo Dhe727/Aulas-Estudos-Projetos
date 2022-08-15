@@ -38,11 +38,11 @@
     background-position: center;
 }
 .front{
-    background-image: url(/W3/jogodaMemoria/imagem/img01.jpg);
+   
 }
 
 .back{
-    background-image: url('/jogodaMemoria/imagem/img01.jpg');
+    background-image: url('/imagem/img03.jpg');
     backface-visibility: hidden;
 }
 .card:hover{
