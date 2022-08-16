@@ -17,17 +17,21 @@ h4 {
 
 .nav-link {
     color: white;
-    font-size: 18px;
+    font-size: 1em;
     margin: auto;
     margin-right: 15px;
     border: solid black  3px ;
 }
 
 .imgLogo {
-    width: 100px;
+    width: 150px;
     height: auto;
     display: flex;
     
 }
+#imgRodape{
+    width: 25px;
+    height: 25px;
+}
 
- pxpx
+ 
