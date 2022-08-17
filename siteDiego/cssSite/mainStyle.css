@@ -1,0 +1,62 @@
+
+/*        Menu Cabeçalho            
+------------------------------------------------------- */
+
+#nav_link{
+
+    color: rgb(74, 75, 68);
+    font-family: 'Pacifico', cursiva;   
+    
+}
+#principal{
+    background: linear-gradient(
+        90deg,
+        #3F4448 1%,
+        #272D31 85%,
+        #1C2125 100%,
+        #283033 100%
+      );
+      
+
+}
+#nav_link:hover{
+    background-color: aliceblue;
+    
+}
+
+#titulo{
+    font-family: 'Pacifico', cursiva;
+    color: #E7CCA1;
+    font-weight: 800;
+}
+
+.lista_Style{
+    color: aliceblue;
+    
+}
+.title_lista{
+    font-size: 18px;
+    font-family: 'Pacifico', cursiva;
+    color: #E7CCA1;
+    text-align: center;
+    margin-top: 4px;
+    
+
+}
+
+.text_carrocel{
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-family: 'Pacifico', cursiva;
+    font-weight: 900;
+    
+}
+.text_carrocel_title{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-family: 'Pacifico', cursiva;
+    font-weight: 700;
+}
+.img_opacity{
+    opacity: 2.8;
+}
