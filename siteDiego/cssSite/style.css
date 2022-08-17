@@ -1,0 +1,13 @@
+#nav_link{
+    color: black;
+    font-weight: 600;    
+    
+}
+#nav_link:hover{
+    background-color: aliceblue;
+    
+}
+
+#titulo{
+    font-family: 'Oswald', sem serifa;
+}
