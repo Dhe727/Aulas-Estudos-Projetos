@@ -16,9 +16,10 @@
 <!------------------------Menu Cabeçalho--------------------------->
   
     <header>
-      <nav class="navbar navbar-expand-lg bg-light m-0">
+
+      <nav class="navbar navbar-expand-lg bg-light m-0 p-0 fixed-top">
         <section class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="img-fluid m-0 " src="/imgSite_Diego/logoPequena.png" alt=""></a>
+                <a class="navbar-brand" href="#"><img class="img-fluid m-0 " src="imgSite_Diego/logoPequena.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -34,7 +35,7 @@
                   <a id="nav_link" class="nav-link" href="#">Área de Atuação</a>
                 </li>
                 <li class="nav-item">
-                  <a id="nav_link" class="nav-link">Contato</a>
+                  <a id="nav_link" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#" >Contato</a>
                 </li>
             </ul>
           </div>
@@ -58,14 +59,8 @@
   <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="4000">
               <img src="imgSite_Diego/banner01.jpg" class="d-block w-100 img_opacity" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h2 class="text_carrocel_title">Noticia direito trabalhista</h2>
-                <p class="text_carrocel">O Senado aprovou nesta quarta-feira (3)
-                   a medida provisória que instituiu regras trabalhistas alternativas para vigorar em períodos de calamidade pública. Entre essas regras estão férias antecipadas, teletrabalho e suspensão de recolhimentos do Fundo de Garantia do Tempo de Serviço (FGTS). A MP 1.109/2022, aprovada por 51 votos a 17, não sofreu mudanças e será promulgada pelo Congresso Nacional.
-
-
-
-                  Fonte: Agência Senado.</p>
+            <div class="carousel-caption d-none d-md-block">            
+                
             </div>                          
           </div>
 
@@ -97,8 +92,11 @@
           </button>
 </div>
 
+<!--------------------------Caminho Whatsapp---------------------------------------------------------------->
+<div>
+  <a href="https://api.whatsapp.com/send?l=pt&amp;phone=554896415545"  target="_blank"><img class="fixed-bottom " src="imgSite_Diego/zap2.png" alt=""></a>
+</div>
 <!---------------------------------------------------------------------------------------------->
-
     <div id="principal" class="container-fluid bg-dark mb-0 p-4">
       <h1 id="titulo" class="text-center"> <i>Diego Roberto Pedroso</i></h1>
       <h4 id="titulo" class="text-center m-0" > <i>OAB/SC 64242</i></h4>
@@ -110,8 +108,7 @@
     <nav id="" class="col-12 col-sm-6 col-md-3 col-lg-3">
             <div class=" text-center">
             <img class="img-fluid" src="https://yata.s3-object.locaweb.com.br/f5e7670bc6180046e797bf1bec84b5ef1bd8f6fddc3bd6f5fe62ded4e2684628" title="case.png" alt="case.png">
-            </div>
-            
+            </div>           
           
           
                 <h3 class="title_lista" >DIREITO TRABALHISTA</h3>
@@ -132,11 +129,11 @@
     </nav>  
   
   
-              <!-------------------fim da seção direito trabalhista------------------------------->
+ <!-------------------fim da seção direito trabalhista------------------------------->
   
   
   
-              <!-------------------incio da seção direito familia------------------------------->
+ <!-------------------incio da seção direito familia------------------------------->
             
     <nav class="col-12 col-sm-6 col-md-3 col-lg-3">
             <div class="text-center">
@@ -153,7 +150,7 @@
           </ul> 
        </div>  
     </nav>
-  <!--------------------------------------FIM da seção direito familia------------------------------------>
+ <!-----------------------------FIM da seção direito familia--------------------->
   
   
       <nav class="col-12 col-sm-6 col-md-3 col-lg-3">
@@ -198,29 +195,55 @@
     </nav>
 
 
-    <nav class="container-fluid col-12 col-sm-6 col-md-6 col-lg-8 boder border-top mt-5 p-2">
-
-       <h4 style="color: white; margin: 0;">Fale Conosco:</h4>
-
-      <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea placeholder="Escreva sua menssagem, respondemos e até 24horas" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>        
-      </div>
-
-      <div>
-        <button class="btn btn-light">Enviar</button>
-      </div>
-
-
 
 
 
     </nav>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Envie uma mensagem!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"> Seu Nome</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Dr Diego Roberto Pedroso">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"> Seu E-mail</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Escreva sua mensagem... <b><i>respondemos em até 24h</i></b></label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-success">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
