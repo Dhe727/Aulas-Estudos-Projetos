@@ -1,0 +1,26 @@
+Anotação Java script:
+
+				parseInt(); =
+
+é  uma função que está pronta para receber um texto
+e converter para número.....
+
+ex: var vitoria = parseInt(prompt("Quantas Vitória seu time teve?"));
+
+o exemplo acima vai escrever na tela uma pergunta, que recebe como reposta um número,
+porém se não usar a função parseInt() javaScript entende é uma string.
+
+
+
+
+			Math.random();
+
+ essa função gera número de forma aleatória no console,
+voê pode usar esse número aleatório para deixar seus programas mais dinamecos
+
+
+		ex; var numeroPesado = Math.round(Math.random()*10);
+
+
+Math.round é usado para te dar um número sem casas decimais.
+ 
