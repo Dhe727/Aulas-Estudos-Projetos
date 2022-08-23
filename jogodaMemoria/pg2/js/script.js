@@ -1,11 +1,21 @@
 const grid = document.querySelector('.grid')
- const cards = [
-    'img01',
-    'img02',
-    'm01',
-    'm02',
-    'm03',
-    'm4',
+ const characters = [
+    'imgJogo01',
+    'imgJogo02',
+    'imgJogo03',
+    'imgJogo04',
+    'imgJogo05',
+    'imgJogo06',
+    'imgJogo07',
+    'imgJogo08',
+    'imgJogo09',
+    'imgJogo10',
+    'imgJogo11',
+    'imgJogo12',
+    'imgJogo13',
+    'imgJogo14',
+    'imgJogo15',
+    'imgJogo16',
  ];
 const creatElement =(tag, className) => {
     const element = document.createElement(tag);
@@ -13,11 +23,12 @@ const creatElement =(tag, className) => {
     return element
 }
 
-const createCard =()=>{
+const createCard =(character)=>{
     const card = creatElement('div','card');
     const front = creatElement('div','face front');
     const back= creatElement('div','face back');
 
+front.style.backgroundImage = `url('../imagem/${character}.jpg')`;
     
     front.className ='face front';
     back.className = 'face back';
@@ -28,11 +39,12 @@ const createCard =()=>{
     return(card);
 }
 const loadGame = () =>{
+    const duplicadosChar =[...characters, ...characters];
 
-    cards.forEach((cards) =>{
+    duplicadosChar.forEach((character) =>{
 
-    const char = createCard();
-    grid.appendChild(char);
+    const card = createCard(character);
+    grid.appendChild(card);
 
     });
 

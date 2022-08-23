@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 25%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-decoration:underline;
+    background-color: rgb(110, 108, 108);
+    
+}
+.main_menu{
+    height: 70%;
+    width: 100%;
+    text-align: center;
+}
+
+#DigitaTarefa{
+    font-size: 2rem;
+    height: 120px;
+    width: 80%;
+    padding-left: 5%;
+    
+}
+#botaoAdd{
+    height: 120px;
+    
+    
+    
+}

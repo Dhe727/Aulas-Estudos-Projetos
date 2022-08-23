@@ -1,9 +1,9 @@
-
+/*
 function calculaImc (altura, peso){
     return peso / ( altura * altura);
 }
 
-/*
+
 var nome = prompt("Qual é Seu Nome?");
 var alturaInformada = prompt(nome + " vamos calcular seu IMC! qual é sua Altura?");
 var pesoInformado = prompt(nome + ",E Qual é seu peso?");
@@ -76,7 +76,7 @@ while(numeroPesado != seuChute){
     }
 
 }
-*/
+
 
 
 for(i=0;i<11;i++){
@@ -87,3 +87,44 @@ for(i=0;i<11;i++){
     document.write(i+" x "+b+ " = "+r +"<br>");
     }
 }
+*/
+function soma(){
+    let valor1=document.querySelector("#number1").value;
+    let valor2=document.querySelector("#number2").value;
+    let resultado = parseInt(valor1)+ parseInt(valor2);
+     document.querySelector("#resultado").innerHTML= resultado;
+}
+const buttomMut = ()=>{
+    let valor1=document.querySelector("#number1").value;
+    let valor2=document.querySelector("#number2").value;
+    let resultado = valor1 * valor2;
+     document.querySelector("#resultado").innerHTML= resultado;
+
+}
+let buttomMu = document.querySelector("#buttomMut");
+let buttomSoma = document.querySelector("#buttomSoma");
+
+buttomSoma.addEventListener("click", soma);
+buttomMu.addEventListener("click",buttomMut);
+
+
+let segredo = Math.round(Math.random()*5);
+let input = document.querySelector("#input");
+input.focus();
+
+
+function verificar(){
+    
+    
+    if(input.value == segredo){
+        
+        alert("Você Acertou!");
+        
+    }else{
+        alert("Você errou");
+    }
+    input.value = "";
+    input.focus();
+}
+let butao = document.querySelector("#butao");
+butao.addEventListener("click",verificar)
