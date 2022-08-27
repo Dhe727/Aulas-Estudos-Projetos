@@ -87,7 +87,7 @@ for(i=0;i<11;i++){
     document.write(i+" x "+b+ " = "+r +"<br>");
     }
 }
-*/
+
 function soma(){
     let valor1=document.querySelector("#number1").value;
     let valor2=document.querySelector("#number2").value;
@@ -127,4 +127,4 @@ function verificar(){
     input.focus();
 }
 let butao = document.querySelector("#butao");
-butao.addEventListener("click",verificar)
+butao.addEventListener("click",verificar)*/
