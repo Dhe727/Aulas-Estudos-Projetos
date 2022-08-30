@@ -1,0 +1,12 @@
+.divExemplo{
+    width: 130px;
+    height: 100px;
+    border: solid black 4px;
+    background-color: #fff;
+    
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 15px;
+}
