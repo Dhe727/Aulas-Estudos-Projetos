@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-4 offset-sm-4 col-xs-10 main">
+                <header class="col-12">
+                    <h5>Calcula Taxa de Entrega<h5>
+                </header>
+                    <div class="card col-10 offset-1">
+                        <div class="card-body">
+                            Digite o valor da taxa.
+                        </div>
+                    </div>
+                    <div class="row boxInputs">
+                        <div class="col-1">R$</div>
+                        <div class="col-4">
+                            <input type="number" class="form-control" id="valorTaxa" aria-describedby=""
+                                placeholder="00,00">
+                        </div>
+                        <div class="col-7 ">
+                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                        </div>
+
+                    </div>
+                <h5> Taxas</h5>
+                <div id="taxas">
+                    <div  id="taxasValor">
+                        <div class="col-10 offset-1 geraItem">
+                            <div class="col-12 item" >R$ 10,00 <i class="fas fa-minus-circle" data-button="1"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 offset-1 total">Total: R$ 10,00</div>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
