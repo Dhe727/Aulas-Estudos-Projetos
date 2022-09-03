@@ -4,5 +4,5 @@
     position: absolute;
 }
 body{
-    background-image: url(/imagfundo.png);
+    background: url("../imagfundo.png");
 }
