@@ -1,4 +1,7 @@
 window.addEventListener("load", () => {
+    let respostaEscolhida;
+    var selected = new Audio('selecionado.mp3');
+
     const app = document.querySelector("#app");
     const perguntas = {
         titulo: 'Normalmente, quantos litros de sangue uma pessoa tem? Em média, quantos são retirados numa doação de sangue?',
@@ -12,46 +15,68 @@ window.addEventListener("load", () => {
         correta: '1'
     }
     let respostas = "";
+    let modal = `<div id="modal"><div class="content"><h5>Está Certeza:</h5>
+        <button class="confirmar">Confirmar</button>
+        <button class="voltar">Voltar</button></button>
+        </div>
+    </div>`;
+
     perguntas.respostas.forEach((item, i) => {
-        respostas += `<div class="resposta" data-resposta="${i + 1}"><span class="indice"> ${i + 1} </span> ${item} </div>`;
+        respostas += `<div class="resposta" data-resposta="${i + 1}"><div class="quest"><span class="indice"> ${i + 1} </span></div><div class="pergunta"> ${item}</div> </div>`;
+
     })
-    app.innerHTML = `<div class="titulo">${perguntas.titulo}</div>
+    app.innerHTML = `${modal}<div class="logoMarca">Show do Andre</div><div class="titulo">${perguntas.titulo}</div>
     <div class="respostas">${respostas}</div>
     `
-    let minhasResposta = document.querySelectorAll(".resposta")
+    let minhasResposta = document.querySelectorAll(".resposta");
+
     minhasResposta.forEach((e) => {
         console.log(e.dataset.resposta);
         e.addEventListener("click", (e) => {
+            selected.volume = 0.4;
+            selected.play();
+            for (let i = 0; i < minhasResposta.length; i++) {
+                minhasResposta[i].classList.remove("corretaCor")
+            }
             clickResposta(e)
         })
     })
     let salvaUsuario = document.querySelector("#salvar");
     let usuario = document.querySelector("#usuario");
-    salvaUsuario.addEventListener("click",()=>{
+    salvaUsuario.addEventListener("click", () => {
         localStorage.setItem("usuario", usuario.value)
     })
-})
-function clickResposta(e) {
-    switch (e.currentTarget.dataset.resposta) {
-        case '1':
-            e.currentTarget.classList.add("corretaCor");
-            break;
-        case '2':
-            e.currentTarget.classList.add("corretaCor");
-            break;
+    function clickResposta(e) {
 
-        case '3':
-            e.currentTarget.classList.add("corretaCor");
-            break;
+        switch (e.currentTarget.dataset.resposta) {
+            case '1':
+                e.currentTarget.classList.add("corretaCor");
+                respostaEscolhida = "1"
+                break;
+            case '2':
+                e.currentTarget.classList.add("corretaCor");
+                respostaEscolhida = "2"
+                break;
 
-        case '4':
-            e.currentTarget.classList.add("corretaCor");
-            break;
+            case '3':
+                e.currentTarget.classList.add("corretaCor");
+                respostaEscolhida = "3"
+                break;
+
+            case '4':
+                e.currentTarget.classList.add("corretaCor");
+                respostaEscolhida = "4"
+                break;
+            case '5':
+                e.currentTarget.classList.add("corretaCor");
+                respostaEscolhida = "5"
+                break;
 
 
-        default:
-            break;
+            default:
+                break;
+        }
+
+
     }
-    
-
-}
+})

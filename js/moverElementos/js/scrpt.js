@@ -1,5 +1,7 @@
 
-
+function caiMeteoro (){
+    
+}
 var x = 0
 var y = 0
 window.addEventListener("keydown",function(event){
@@ -24,8 +26,7 @@ window.addEventListener("keydown",function(event){
 
 
 
-
-
+console.log ("olá mundo")
 
 
 
