@@ -1,4 +1,4 @@
-let posicao = 2
+let posicao = 1
 
 
 function resultado2() {

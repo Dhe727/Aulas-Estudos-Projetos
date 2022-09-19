@@ -34,7 +34,7 @@ body {
     overflow: hidden;
     font-family: arial;
     background: url(show-background.jpg) no-repeat ;
-    background: contain;
+    background-size: cover;
 }
 .titulo {
     width: 90%;
@@ -102,4 +102,51 @@ body {
     background: silver;
     padding: 10px;
     text-transform: uppercase;
+}
+.modalBackground {
+    position: fixed;
+    width: 50%;
+    height: 98vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: block;
+}
+.modalCorpo {
+    margin: 0 auto;
+    margin-top: 40vh;
+    background: white;
+    width: 50%;
+    min-height: 145px;
+    background: url(show-background.jpg) no-repeat ;
+    background-size: cover;
+    box-shadow: 1px 1px 20px white;
+    z-index: 999;
+}
+.modalCorpo h5 {
+    text-align: center;
+    text-shadow: 0px 1px 5px black;
+    color: gold;
+    height: 45px;
+    padding-top: 10px;
+    font-family: "dragon";
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+.areaButton {
+    width: 90%;
+    height: 50px;
+    margin-left: 10%;
+}
+.areaButton button{
+    font-size: 0.6em;
+    width: 90%;
+    height: 30px;
+    font-family: "dragon";
+    color: white;
+    text-shadow: 0px 1px 3px black;
+    background: rgb(57, 57, 150) no-repeat center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    margin-bottom: 5px;
 }
