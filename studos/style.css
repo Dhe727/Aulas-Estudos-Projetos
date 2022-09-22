@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 33%)
+}
+.itens{
+    background-color: aqua;
+    
+    border: solid black 2px;
+    margin: 1px;
+    text-align: center;
+
+}
+
+
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 25px;
+    border: solid black;
+    height: 500px;
+}
+.itens1{
+    background-color: rgb(107, 173, 0);
+    
+    border: solid black 2px;
+    margin: 1px;
+    text-align: center;
+
+}
+
