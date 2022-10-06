@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função aninhada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+        <div id="demo">Este elemento laranja tem um manipulador<br>
+             de eventos onmousemove que exibe um número aleatório <br>
+             quando você move o mouse para dentro.<br>
+            Clique em "Remover" para remover o manipulador de eventos.</div>
+        <button id="button">Click</button>
+        <div id="demo2"></div>
+  
+
+
+
+<!-----------------       <input class="n1" type="text">
+                          <input class="n2" type="text">
+      -------------------->
+
+
+
+
+
+
+
+
+
+    <script >
+
+        let div = document.getElementById("demo");
+        let botao = document.getElementById("button");
+        div.addEventListener("mousemove",mfuntion);
+        botao.addEventListener("click",function(){
+        div.removeEventListener("mousemove",mfuntion);
+        
+        });
+        function mfuntion(){
+            document.getElementById("demo2").innerHTML = Math.random();
+            
+        }
+
+
+
+
+//         const soma = ()=>{
+//             res = parseInt(n1.value) + parseInt(n2.value);
+//             div.innerHTML= 'o resutado da soma dos elemento é = '+res;
+
+//            }
+           
+    
+   
+   
+//    let div = document.querySelector(".div");
+//    div.addEventListener('dblclick',soma);
+//    let n1 = document.querySelector('.n1');
+//    n1.addEventListener('dblclick',soma)
+//    let n2 = document.querySelector('.n2');
+//    n1.addEventListener('dblclick',soma)
+
+
+// const meuArray = new Uint32Array(10);
+// let text = "";
+// crypto.getRandomValues(meuArray);
+
+// for (const num of myArray) {
+//   text += num + "<br>"
+// }
+// document.getElementById("demo").innerHTML = text;
+
+
+   </script>
+</body>
+
+</html>

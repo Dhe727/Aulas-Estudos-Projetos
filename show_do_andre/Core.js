@@ -1,5 +1,5 @@
 import { confirmarResposta } from "./respondeRespostas.js"
-export const core = () => {
+export const core = (_usuario) => {
 
     let respostaEscolhida;
     var selected = new Audio('selecionado.mp3');
@@ -23,12 +23,13 @@ export const core = () => {
     <button class="voltar">Voltar</button></button>
     </div>
     </div>`;
-
     perguntas.respostas.forEach((item, i) => {
         respostas += `<div class="resposta" data-resposta="${i + 1}"><div class="quest"><span class="indice"> ${i + 1} </span></div><div class="pergunta"> ${item}</div> </div>`;
 
     })
-    app.innerHTML = `<div class="modalBackground">${modal}</div></div><div class="logoMarca">Show do Andre</div><div class="titulo">${perguntas.titulo}</div>
+    app.innerHTML = `<div class="modalBackground">${modal}</div></div>
+    <div class="user">Jogador<br>${_usuario}</div>
+    <div class="titulo">${perguntas.titulo}</div>
     <div class="respostas">${respostas}</div>
     `
     let minhasResposta = document.querySelectorAll(".resposta");
@@ -45,11 +46,7 @@ export const core = () => {
             clickResposta(e)
         })
     })
-    let salvaUsuario = document.querySelector("#salvar");
-    let usuario = document.querySelector("#usuario");
-    salvaUsuario.addEventListener("click", () => {
-        localStorage.setItem("usuario", usuario.value)
-    })
+    
     function clickResposta(e) {
 
         switch (e.currentTarget.dataset.resposta) {
