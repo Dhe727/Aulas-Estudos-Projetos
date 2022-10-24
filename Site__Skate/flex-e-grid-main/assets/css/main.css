@@ -1,0 +1,30 @@
+
+
+.principal{
+   padding: 24px 16px; 
+}
+.tituliInicio{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.cartao{
+    width: 100%;
+    border-radius: 18px;
+    overflow: hidden;
+    background-color: #2C343A;
+}
+.cartaoTitulo{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.imgCartão1{
+    
+    width: 100%;
+    border-radius: 18px;
+
+}
+.cartãoConteudo{
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+}

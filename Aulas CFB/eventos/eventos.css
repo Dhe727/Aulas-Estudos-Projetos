@@ -1,0 +1,17 @@
+.destaque{
+    padding: 0;
+    margin: 0;      
+    background-color: rgb(252, 252, 252);
+    color: #ff0000;       
+}
+.teste{
+    width: 150px;
+    height: 150px;
+    border: solid 2px black;
+    
+}
+.divis{
+    display: flex;
+    height: 150px;
+    width: 450px;
+}
