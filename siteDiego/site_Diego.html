@@ -1,13 +1,16 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
+    <title>Consultor Jurídico | Soluções em Direito Criminal, Civil, Trabalhista e Mais</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="/cssSite/mainStyle.css">
+    <meta name="description" content="Serviços jurídicos profissionais em várias áreas do direito">
+    <meta name="theme-color" content="#E7CCA1">
+    <link rel="stylesheet" href="cssSite/mainStyle.css">
     <!-- Bootstrap CSS v5.2.0-beta1 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -19,39 +22,41 @@
 
       <nav class="navbar navbar-expand-lg bg-light m-0 p-0 fixed-top">
         <section class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="img-fluid m-0 " src="imgSite_Diego/logoPequena.png" alt=""></a>
+                <a class="navbar-brand" href="#"><img class="img-fluid" src="imgSite_Diego/logoPequena.png" alt="Logo Consultor Jurídico"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a id="nav_link" class="nav-link" aria-current="page" href="#">Início</a>
-                </li>
-
-                <li  class="nav-item">
-                  <a id="nav_link" class="nav-link" href="#">Quem Somos</a>
+                  <a class="nav-link-main nav-link" aria-current="page" href="#inicio">Início</a>
                 </li>
 
                 <li class="nav-item">
-                  <a id="nav_link" class="nav-link" href="#">Área de Atuação</a>
-                  <div class="btn-group nav_link">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
-                      Default dropdown
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                    </ul>
-                  </div>
-
+                  <a class="nav-link-main nav-link" href="#quemsomos">Quem Somos</a>
                 </li>
 
-                
+                <li class="nav-item">
+                  <a class="nav-link-main nav-link" href="#atuacao">Áreas de Atuação</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link-main nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Especialidades
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalCriminal">Direito Criminal</a></li>
+                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalCivil">Direito Civil</a></li>
+                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalTrabalhista">Direito Trabalhista</a></li>
+                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalPrevidenciario">Direito Previdenciário</a></li>
+                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalFamilia">Direito de Família</a></li>
+                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalConsumidor">Direito do Consumidor</a></li>
+                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modalTransito">Direito de Trânsito</a></li>
+                  </ul>
+                </li>
 
                 <li class="nav-item">
-                  <a id="nav_link" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#" >Contato</a>
+                  <a class="nav-link-main nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Contato</a>
                 </li>
             </ul>
           </div>
@@ -63,191 +68,385 @@
 
 <!------------------------  Carrosel!  ------------------------------->
 
-<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+<div id="inicio" class="carousel carousel-dark slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
 
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#inicio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#inicio" data-bs-slide-to="1" aria-label="Slide 2"></button>
 
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#inicio" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
   <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="4000">
-              <img src="imgSite_Diego/banner01.jpg" class="d-block w-100 img_opacity" alt="...">
+          <div class="carousel-item active" data-bs-interval="5000">
+              <img src="imgSite_Diego/banner01.jpg" class="d-block w-100" alt="Banner 1">
             <div class="carousel-caption d-none d-md-block">            
                 
             </div>                          
           </div>
 
-          <div class="carousel-item" data-bs-interval="4000">
-              <img src="/imgSite_Diego/banner02.jpg" class="d-block w-100 img_opacity" alt="...">
+          <div class="carousel-item" data-bs-interval="5000">
+              <img src="imgSite_Diego/banner02.jpg" class="d-block w-100" alt="Banner 2">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
             </div>
 
           </div>
-            <div class="carousel-item" data-bs-interval="4000">
-              <img src="/imgSite_Diego/banner03.jpg" class="d-block w-100 img_opacity" alt="...">
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="imgSite_Diego/banner03.jpg" class="d-block w-100" alt="Banner 3">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
               </div>
             </div>
 
     </div>
 
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#inicio" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#inicio" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
 </div>
 
-<!--------------------------Caminho Whatsapp---------------------------------------------------------------->
-<div>
-  <a href="https://api.whatsapp.com/send?l=pt&amp;phone=554896415545"  target="_blank"><img class="fixed-bottom " src="imgSite_Diego/zap2.png" alt=""></a>
-</div>
-<!---------------------------------------------------------------------------------------------->
-    <div id="principal" class="container-fluid bg-dark mb-0 p-4">
-      <h1 id="titulo" class="text-center"> <i>Diego Roberto Pedroso</i></h1>
-      <h4 id="titulo" class="text-center m-0" > <i>OAB/SC 64242</i></h4>
-    </div>  
+<!------- Seção Advogado ------->
+<section id="quemsomos" class="py-5 border-bottom">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-4 text-center mb-4 mb-lg-0 lawyer-section">
+        <img src="https://media-gru2-2.cdn.whatsapp.net/v/t61.24694-24/567205512_841864448316903_7464662130695156158_n.jpg?ccb=11-4&oh=01_Q5Aa4QF0CuTan0VjBylyjMcgo12r6eJMYHhvGTvYSItnxSGNaQ&oe=69ED2B52&_nc_sid=5e03e0&_nc_cat=111" alt="Foto do Advogado Diego Roberto Pedroso" class="img-fluid">
+      </div>
+      <div class="col-lg-8">
+        <h2 class="section-title mb-2">Diego Roberto Pedroso</h2>
+        <h4 class="section-title mb-3">OAB/SC 64242</h4>
+        <p class="text-muted fs-5" style="font-family: var(--font-body);">
+          Sou Diego Roberto Pedroso, advogado comprometido com a defesa dos direitos e a busca incansável pela justiça. Ao longo da minha trajetória, construí uma atuação sólida em diversas áreas do Direito, sempre com foco em oferecer soluções jurídicas eficientes e personalizadas para cada cliente.
+
+          Acredito que cada caso é único e merece atenção dedicada, estratégia bem definida e transparência em cada etapa do processo. Meu compromisso vai além da atuação técnica: busco compreender a realidade de quem confia no meu trabalho para entregar resultados concretos e seguros.
+
+          Atuo nas áreas de Direito Criminal, Civil, Trabalhista, Previdenciário, Família, Consumidor e Trânsito, sempre guiado pela ética, responsabilidade e determinação.
+
+          Para mim, advogar é mais do que uma profissão — é a missão de proteger direitos, enfrentar desafios e fazer a diferença na vida das pessoas.
+        </p>
+        <p style="font-family: var(--font-body); color: var(--color-text-body); line-height: 1.8;">
+          Atua nas áreas de Direito Criminal, Civil, Trabalhista, Previdenciário, Família, Consumidor e Trânsito, com foco em proteger os interesses e direitos de seus clientes.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!------- Fim Seção Advogado ------->
+
+<section id="principal" class="section-dark container-fluid mb-0 p-4">
+      <h3 class="text-center section-title">Áreas de Especialização</h3>
+</section>  
 
 
-<main id="principal" class="container-fluid row m-0">
-
-    <nav id="" class="col-12 col-sm-6 col-md-3 col-lg-3">
-            <div class=" text-center">
-            <img class="img-fluid" src="https://yata.s3-object.locaweb.com.br/f5e7670bc6180046e797bf1bec84b5ef1bd8f6fddc3bd6f5fe62ded4e2684628" title="case.png" alt="case.png">
-            </div>           
-          
-          
-                <h3 class="title_lista" >DIREITO TRABALHISTA</h3>
-         
-            
-          </div>
-                <ul class="">
-                  <li  class="lista_Style" >Ajuizamento de ações trabalhistas</li>
-                  <li class="lista_Style">Defesas em ações trabalhistas</li>
-                  <li class="lista_Style">Horas extras</li>
-                  <li class="lista_Style">Rescisão</li>     
-                  <li class="lista_Style">Férias e 13º salário</li>                    
-                  <li class="lista_Style">Salário extra folha</li>
-                  <li class="lista_Style">Indenização por dano moral</li>
-                  <li class="lista_Style">Acidente de trabalho</li>
-                </ul>
-          </div>
-    </nav>  
-  
-  
- <!-------------------fim da seção direito trabalhista------------------------------->
-  
-  
-  
- <!-------------------incio da seção direito familia------------------------------->
-            
-    <nav class="col-12 col-sm-6 col-md-3 col-lg-3">
-            <div class="text-center">
-                <img class="img-fluid" src="https://yata.s3-object.locaweb.com.br/3ff90d3a6466a8eee0f8441e3659554c5a5e218a1f6a260dceab18d675c51412" title="family.png" alt="family.png">
-            </div>
-              <h3 class="title_lista"> DIREITO FAMÍLIA </h3>            
-        
-        <div>
-          <ul>
-                <li class="lista_Style">Inventário</li>
-                <li class="lista_Style">Pensão alimentícia</li>
-                <li class="lista_Style">Divórcio</li>
-                <li class="lista_Style">Regulamentação de visitas</li>
-          </ul> 
-       </div>  
-    </nav>
- <!-----------------------------FIM da seção direito familia--------------------->
-  
-   <!----------------------------- seção direito consumidor---------------------> 
-      <nav class="col-12 col-sm-6 col-md-3 col-lg-3">
-         <div class="text-center">
-            <img class="img-fluid" src="https://yata.s3-object.locaweb.com.br/eb3da99fbf59e01e2882c109b37845af02515ea26e2eb48fcbd3439e94c96e86" title="build.png" alt="build.png">
-         </div>
-        
-          <h3 class="title_lista"> DIREITO CONSUMIDOR </h3>
-
-        <div class="">
-            <ul>
-            <li class="lista_Style">Falha de Transporte Aére</li>
-            <li class="lista_Style"> Cobranças indevidas</li>
-            <li class="lista_Style"> Negativação SPC/SERASA</li>
-            <li class="lista_Style"> Danos morais</li>
-            <li class="lista_Style"> Oferta descumprida</li>
-          </ul>               
-        </div>  
-      </nav>
-  
- <!----------------------------- seção direito consumidor---------------------> 
-    <nav class="col-12 col-sm-6 col-md-3 col-lg-2">
-        <div class="text-center">
-            <img class="img-fluid" src="https://yata-apix-d003e5db-e118-4d9c-9192-eb9ddc39118c.s3-object.locaweb.com.br/733547f7c071494dab4178590be85921.png" title="2-floor-house (3) (1) (1).png" alt="2-floor-house (3) (1) (1).png">                      
-        </div>
-
-        
-          <h3 class="title_lista">DIREITO IMOBILIÁRIO</h3>
-        
-
-        
-            <div class="">
-          <ul>
-              <li class="lista_Style">Contratos</li>
-              <li class="lista_Style">Usucapião</li>
-              <li class="lista_Style">Análise de documentos</li>
-              <li class="lista_Style">Retificação de escritura</li>
-              <li class="lista_Style">Reintegração de posse</li>
-              <li class="lista_Style">Despejo</li>
+<section id="atuacao" class="container-fluid p-4">
+<main class="container-fluid p-4">
+  <div class="row">
+    
+    <!------- DIREITO CRIMINAL ------->
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="card-body text-center">
+          <i class="fas fa-gavel icon-specialty"></i>
+          <h3 class="card-specialty-title">DIREITO CRIMINAL</h3>
+          <ul class="text-start service-list">
+            <li>Defesa em processos criminais</li>
+            <li>Direito penal preventivo</li>
+            <li>Representação juicial</li>
+            <li>Conhecimento aprofundado da legislação</li>
           </ul>
-       </div>
-    </nav>
+        </div>
+      </div>
+    </div>
+
+    <!------- DIREITO CIVIL ------->
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="card-body text-center">
+          <i class="fas fa-file-contract icon-specialty"></i>
+          <h3 class="card-specialty-title">DIREITO CIVIL</h3>
+          <ul class="text-start service-list">
+            <li>Contratos diversos</li>
+            <li>Ações indenizatórias</li>
+            <li>Responsabilidade civil</li>
+            <li>Assessoria preventiva</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!------- DIREITO TRABALHISTA ------->
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="card-body text-center">
+          <i class="fas fa-briefcase icon-specialty"></i>
+          <h3 class="card-specialty-title">DIREITO TRABALHISTA</h3>
+          <ul class="text-start service-list">
+            <li>Ajuizamento de ações trabalhistas</li>
+            <li>Horas extras e rescisão</li>
+            <li>Indenização por dano moral</li>
+            <li>Açidente de trabalho</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!------- DIREITO PREVIDENCIÁRIO ------->
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="card-body text-center">
+          <i class="fas fa-id-card icon-specialty"></i>
+          <h3 class="card-specialty-title">DIREITO PREVIDENCIÁRIO</h3>
+          <ul class="text-start service-list">
+            <li>Aposentadoria por idade</li>
+            <li>Benefícios previdenciários</li>
+            <li>Recurso administrativo</li>
+            <li>Ações previdenciárias</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!------- DIREITO FAMÍLIA ------->
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="card-body text-center">
+          <i class="fas fa-home icon-specialty"></i>
+          <h3 class="card-specialty-title">DIREITO FAMÍLIA</h3>
+          <ul class="text-start service-list">
+            <li>Documentação de Inventário</li>
+            <li>Pensão alimentícia</li>
+            <li>Divórcio amigável</li>
+            <li>Regulamentação de visitas</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!------- DIREITO CONSUMIDOR ------->
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="card-body text-center">
+          <i class="fas fa-shield-alt icon-specialty"></i>
+          <h3 class="card-specialty-title">DIREITO CONSUMIDOR</h3>
+          <ul class="text-start service-list">
+            <li>Cobranças indevidas</li>
+            <li>Negativação SPC/SERASA</li>
+            <li>Danos morais</li>
+            <li>Proteção de direitos</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!------- DIREITO TRÂNSITO ------->
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="card-body text-center">
+          <i class="fas fa-car icon-specialty"></i>
+          <h3 class="card-specialty-title">DIREITO TRÂNSITO</h3>
+          <ul class="text-start service-list">
+            <li>Defesa em multas de trânsito</li>
+            <li>Suspensão de carteira</li>
+            <li>Acidentes de trânsito</li>
+            <li>Documentação veicular</li>
+          </ul>
+        </div>
+      </div>
+
+  </div>
+</main>
+</section>
 
 
 
 
+<!------- Seção Depoimentos ------->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center section-title mb-5">O que Nossos Clientes Dizem</h2>
+    <div class="row">
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="testimonial-card">
+          <div class="rating-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "Profissional altamente competente e dedicado. Resolveu meu caso com excelência e atenção aos detalhes."
+          </p>
+          <p class="testimonial-author">- Ana Luiza Barbosa</p>
+          <p class="testimonial-role">Direito Trabalhista</p>
+        </div>
+      </div>
 
-    </nav>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="testimonial-card">
+          <div class="rating-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "Excelente assessoria jurídica. Muito atencioso, transparente e sempre disponível para esclarecer dúvidas."
+          </p>
+          <p class="testimonial-author">- Felipe Martins</p>
+          <p class="testimonial-role">Direito Civil</p>
+        </div>
+      </div>
 
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="testimonial-card">
+          <div class="rating-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "Recomendo fortemente! Resultado excelente e profissionalismo impecável em todo o processo."
+          </p>
+          <p class="testimonial-author">- Carla Silva</p>
+          <p class="testimonial-role">Direito de Família</p>
+        </div>
+      </div>
 
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="testimonial-card">
+          <div class="rating-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "Advogado muito competente com vasta experiência. Solucionou meu problema de forma rápida e eficaz."
+          </p>
+          <p class="testimonial-author">- Roberto Santos</p>
+          <p class="testimonial-role">Direito Previdenciário</p>
+        </div>
+      </div>
 
-<!---------------------------------- Modal --------------------------------------->
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="testimonial-card">
+          <div class="rating-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "Proteção total dos meus direitos. Muito profissional e com resultados concretos. Muito satisfeito!"
+          </p>
+          <p class="testimonial-author">- Maria Oliveira</p>
+          <p class="testimonial-role">Direito do Consumidor</p>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!------- Fim Seção Depoimentos ------->
+
+<!------- Seção Mapa e Localização ------->
+<section id="localizacao" class="location-section py-5">
+  <div class="container">
+    <h2 class="text-center section-title mb-5">Nossa Localização</h2>
+    <div class="row">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.8937254849737!2d-48.75194!3d-27.03389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dfde9c9a9a9a9b%3A0x9a9a9a9a9a9a9a9a!2sAv.%20Joaquim%20Jos%C3%A9%20de%20Santana%2C%202000%20-%20Canelinha%20-%20SC%2088230-000!5e0!3m2!1spt-BR!2sbr!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <div class="col-lg-6 d-flex align-items-center">
+        <div class="w-100">
+          <h4 style="font-family: var(--font-heading); color: var(--color-text-dark); font-weight: 700; margin-bottom: 2rem; font-size: 1.5rem;">Entre em Contato</h4>
+          <div class="contact-info">
+            <div>
+              <i class="fas fa-map-marker-alt contact-icon"></i>
+              <strong>Endereço:</strong>
+              <p>Av. Joaquim José de Santana, N° 2000<br>Canelinha - SC, 88230-000</p>
+            </div>
+          </div>
+          <div class="contact-info">
+            <div>
+              <i class="fas fa-phone contact-icon"></i>
+              <strong>Telefone:</strong>
+              <p>(55) 996415-545</p>
+            </div>
+          </div>
+          <div class="contact-info">
+            <div>
+              <i class="fas fa-envelope contact-icon"></i>
+              <strong>Email:</strong>
+              <p>seu-email@example.com</p>
+            </div>
+          </div>
+          <div class="contact-info">
+            <div>
+              <i class="fas fa-clock contact-icon"></i>
+              <strong>Horário de atendimento:</strong>
+              <p>Segunda a Sexta: 08h00 - 11:45 das 13h30 - 17:30</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!------- Fim Seção Mapa ------->
+
+<!------- Seção Modal de Contato ------->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-dialog-centered modal-sm">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Envie uma mensagem!</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Envie uma Mensagem</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label"> Seu Nome</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Dr Diego Roberto Pedroso">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label"> Seu E-mail</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Escreva sua mensagem... <b><i>respondemos em até 24h</i></b></label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control form-control-compact" placeholder="Seu Nome" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control form-control-compact" placeholder="Seu E-mail" required>
+          </div>
+          <div class="mb-2">
+            <textarea class="form-control form-control-compact" placeholder="Sua mensagem..." rows="4" required></textarea>
+            <small class="d-block mt-2 text-muted">✓ Respondemos em até 24h</small>
+          </div>
+        </form>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-        <button type="button" class="btn btn-success">Enviar</button>
+      <div class="modal-footer modal-footer-compact">
+        <div class="social-links-modal mb-3 w-100">
+          <p class="text-muted small mb-2">Conecte-se conosco:</p>
+          <div class="d-flex gap-3 justify-content-center">
+            <a href="https://api.whatsapp.com/send?l=pt&phone=554896415545" target="_blank" class="social-icon-link" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://facebook.com/seu-perfil" target="_blank" class="social-icon-link" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com/seu-perfil" target="_blank" class="social-icon-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary btn-sm">Enviar</button>
       </div>
     </div>
   </div>
 </div>
-</nav>
+
+</header>
 <!---------------------------------- Modal --------------------------------------->
 
 
@@ -296,3 +495,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
   </body>
 </html>
+
